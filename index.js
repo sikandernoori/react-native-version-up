@@ -28,7 +28,7 @@ const version = `${major}.${minor}.${patch}`;
 
 // getting next build number
 const buildCurrent = helpers.getBuildNumberFromPlist(pathsToPlists[0]);
-const build = buildCurrent + 1;
+const build = ('000' + major).slice(-3) + ('000' + minor).slice(-3) + ('000' + patch).slice(-3) + ('000' + argv.runNumber % 1000 + patch).slice(-3);
 
 // getting commit message
 const messageTemplate = argv.m || argv.message || 'release ${version}: increase versions and build numbers';
