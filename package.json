@@ -1,6 +1,6 @@
 {
-  "name": "react-native-version-up",
-  "version": "1.0.9",
+  "name": "react-native-version-up-custom",
+  "version": "1.0.11",
   "description": "Increase version and build number in your react native app for package.json and both platforms (ios && android) with one command",
   "main": "index.js",
   "scripts": {
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gustarus/react-native-version-up.git"
+    "url": "git+https://github.com/sikandernoori/react-native-version-up"
   },
   "keywords": [
     "react native version",
     "react native version up"
   ],
-  "author": "Pavel Kondratenko",
+  "author": "Pavel Kondratenko, Sikander",
   "license": "ISC",
   "dependencies": {
     "chalk": "2.0.1",
