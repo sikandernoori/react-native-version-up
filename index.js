@@ -33,6 +33,8 @@ log.info(`- runNumber (${argv.runNumber});`, 1);
 const buildCurrent = helpers.getBuildNumberFromPlist(pathsToPlists[0]);
 const build = major + ('000' + minor).slice(-3) + ('000' + patch).slice(-3) + ('000' + argv.runNumber).slice(-3);
 
+log.info(`New Build Nuimber ${build}`,1);
+
 const message = version;
 
 log.info('\nI\'m going to increase the version in:');
